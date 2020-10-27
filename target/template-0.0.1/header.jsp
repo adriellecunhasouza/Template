@@ -1,8 +1,8 @@
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="container1" style="position:relative;">
+	<div class="container1">
 		<div class="navbar-header">
 			<div class="navbar-brand mb-0 h6"></div>
-			<a class="classe1" href=" ">MyImage.com</a>
+			<a class="classe1" href="">MyImage.com</a>
 		</div>
 
 		<div class="container" style="float: right;">

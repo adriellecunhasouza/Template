@@ -42,7 +42,7 @@
 
 <div class="main1">
 
-	<a class="classe2" href=" "><h1>Conhecendo o Pará</h1></a>
+	<a class="classe2" href=""><h1>Conhecendo o Pará</h1></a>
 	<div class="row">
 
 		<div class="content">

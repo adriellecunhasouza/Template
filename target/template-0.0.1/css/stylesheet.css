@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-
  .container1 {
     		width:154%;
+    		position:relative;
   }
   
   
@@ -11,6 +11,67 @@
     		width:160.5%;
   }
 }
+
+  @media screen and (max-width: 480px) {
+  .container1 {
+    		width:400px;
+    		right: 0px;
+    		float: center;
+    		margin-left: 0px;
+  }
+   .classe1{
+   width:40px;
+	font-size: 3px;
+	margin-top: 0px;
+	margin-left: 0px;
+	float: left;
+	color: #A9A9A9;
+	text-decoration: none;
+	} 		
+	.navbar-header{
+		margin-left: 0px;
+		left: 0px;
+		width: 450px;
+		height: 50px;
+		padding-top: 0px;
+		float: center;
+		
+	}
+	.nav-side-menu{
+		width: 400px;
+	
+	}
+	
+	.navbar-inverse{
+	width: 400px;
+	height: 120px;
+	}
+	
+	.navbar-brand{
+	width: 10px;
+	}
+	
+	.container1{
+	width: 400px;
+	height: 10px;
+	top: 0px;
+	
+	}
+	
+	.btn{
+	width:155px;
+	background-color: #000;
+	color: #FA7625;
+	border-color: #FA7625;
+	text-align: center;
+	font-size: 3px;
+	transition: 0.3s;
+	right: 0px;
+	padding: 1px;
+	}
+	
+}
+
 
 a {
  text-decoration: none;
@@ -269,7 +330,8 @@ a.classe2.active {
 	transition: all 1s ease;
 }
 
-@media ( max-width : 767px) {
+
+@media screen and ( max-width : 767px) {
 	.nav-side-menu {
 		position: relative;
 		width: 100%;
@@ -302,10 +364,6 @@ a.classe2.active {
 		display: block;
 	}
 }
-
-
-
-
 
 body {
 	margin: 0px;
@@ -341,8 +399,6 @@ html {
 border-color:#FA7625;
 }
 
-
-
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -368,4 +424,7 @@ border-color:#FA7625;
       border-radius: 4px;
   overflow: hidden;
 }
+
+
+
 
