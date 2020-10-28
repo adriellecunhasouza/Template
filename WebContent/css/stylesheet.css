@@ -139,14 +139,24 @@
 	
 	.main{
 	width:400px;
-	margin-top: 800px!important;
+	height: 400px;
+	padding-left:7px!important;
+	padding-right:10px!important;
+	padding-top:0!important;
+	margin-top: 80px!important;
 	margin-left: 0!important;
 	float: center;
 	}
+	
+	.myCarousel{
+	
+	}
 	.main1{
 	width:400px;
+	padding-left:30px!important;
+	padding-right:20px!important;
 	margin-left: 0!important;
-	margin-top: 1500px!important;
+	margin-top: 150px!important;
 	float: center;
 	}
 	
